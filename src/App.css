@@ -1,14 +1,15 @@
 .App {
   display: flex;
   height: 100vh;
-  background: #191919;
-  color: #fff;
+  background: #132c33;
+  color: #d8e3e7;
   overflow: hidden;
 }
 .menu {
   display: flex;
   flex-direction: column;
   width: 25%;
+  border-right: 2px solid #51c4d3;
 }
 .menu-item {
   display: flex;
@@ -17,12 +18,15 @@
   padding: 1rem 0;
   cursor: pointer;
   transition: all 0.3s;
+  font-weight: bold;
 }
 .menu-item:hover {
   box-shadow: 0 3px 0 0 #51c4d3;
 }
 .content {
   width: 75%;
+  padding: 32px;
+  overflow: auto;
 }
 
 .piano-wrapper {
@@ -61,11 +65,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #191919;
+  border: 2px solid #51c4d3;
   margin: 16px 16px 0 0;
-  border: none;
-  color: #fff;
+  background: none;
+  color: #51c4d3;
+  cursor: pointer;
   border-radius: 8px;
+  transition: all 0.3s;
+}
+.btn-play:hover {
+  color: #d8e3e7;
 }
 .midi-play-view {
   position: fixed;

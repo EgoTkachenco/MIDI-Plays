@@ -89240,28 +89240,6 @@
       ]
     },
     {
-      "channel": 0,
-      "controlChanges": {
-        "0": [
-          {
-            "number": 0,
-            "ticks": 0,
-            "time": 0,
-            "value": 0
-          }
-        ]
-      },
-      "pitchBends": [],
-      "instrument": {
-        "family": "piano",
-        "name": "acoustic grand piano",
-        "number": 0
-      },
-      "name": "Synthesizer III",
-      "notes": [],
-      "endOfTrackTicks": 51749
-    },
-    {
       "channel": 12,
       "controlChanges": {
         "7": [
@@ -95526,28 +95504,6 @@
           "velocity": 0.6299212598425197
         }
       ]
-    },
-    {
-      "channel": 0,
-      "controlChanges": {
-        "0": [
-          {
-            "number": 0,
-            "ticks": 0,
-            "time": 0,
-            "value": 0
-          }
-        ]
-      },
-      "pitchBends": [],
-      "instrument": {
-        "family": "piano",
-        "name": "acoustic grand piano",
-        "number": 0
-      },
-      "name": "Lead Vocal II",
-      "notes": [],
-      "endOfTrackTicks": 33241
     },
     {
       "channel": 13,

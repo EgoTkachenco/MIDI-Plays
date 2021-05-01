@@ -10,7 +10,7 @@ const TABS = [
 ]
 
 function App() {
-  const [tab, setTab] = useState(TABS[0]);
+  const [tab, setTab] = useState(TABS[1]);
   return (
     <div className="App">
       <Menu tabs={TABS} handle={setTab} />
